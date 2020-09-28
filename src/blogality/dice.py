@@ -19,6 +19,8 @@ class Die:
         self.randseed = randseed
         if randseed:
             self.rng = np.random.RandomState(randseed)
+        else:
+            self.rng = np.random.RandomState()
         self.faces = faces
 
     def restart(self) -> None:
