@@ -10,5 +10,8 @@ setup(
     author_email="sloscalzo85@gmail.com",
     url="https://github.com/sloscal1/blogality",
     packages=["blogality"],
-    package_dir={'': 'src'}
+    package_dir={'': 'src'},
+    install_requires=[
+        "numpy>=1.19.2",
+    ],
 )
