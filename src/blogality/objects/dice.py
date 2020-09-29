@@ -44,4 +44,4 @@ class Die:
             It will be a number between 1 and the number of faces, inclusive.
 
         """
-        return self.rng.randint(1, self.faces)
+        return self.rng.randint(1, self.faces + 1)
